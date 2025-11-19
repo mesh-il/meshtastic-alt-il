@@ -1,0 +1,58 @@
+# Copyright © 2025-26 l5yth & contributors
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+x-ingestor-base: &ingestor-base
+  image: ghcr.io/l5yth/potato-mesh-ingestor-${POTATOMESH_IMAGE_ARCH:-linux-amd64}:${POTATOMESH_IMAGE_TAG:-latest}
+  environment:
+    CONNECTION: ${CONNECTION:-/dev/ttyACM0}
+    CHANNEL_INDEX: ${CHANNEL_INDEX:-0}
+    POTATOMESH_INSTANCE: ${POTATOMESH_INSTANCE:-http://web:41447}
+    API_TOKEN: ${API_TOKEN}
+    INSTANCE_DOMAIN: ${INSTANCE_DOMAIN}
+    DEBUG: ${DEBUG:-0}
+    FEDERATION: ${FEDERATION:-1}
+    PRIVATE: ${PRIVATE:-0}
+  volumes:
+    - potatomesh_data:/app/.local/share/potato-mesh
+    - potatomesh_config:/app/.config/potato-mesh
+    - potatomesh_logs:/app/logs
+    - /dev:/dev
+  device_cgroup_rules:
+    - 'c 166:* rwm' # ttyACM devices
+    - 'c 188:* rwm' # ttyUSB devices
+    - 'c 4:* rwm'   # ttyS devices
+  privileged: false
+  restart: unless-stopped
+  deploy:
+    resources:
+      limits:
+        memory: 256M
+        cpus: '0.25'
+      reservations:
+        memory: 128M
+        cpus: '0.1'
+
+services:
+
+  ingestor-bridge:
+    <<: *ingestor-base
+    container_name: potatomesh-ingestor-bridge
+
+volumes:
+  potatomesh_data:
+    driver: local
+  potatomesh_config:
+    driver: local
+  potatomesh_logs:
+    driver: local
