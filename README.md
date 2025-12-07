@@ -1,3 +1,24 @@
+⚠️ IMPORTANT: Mesh Preset Change Required ⚠️
+We are shifting our network mesh preset from LongFast to MediumFast (labeled "Medium Range - Fast").
+
+Why the Change? The mesh is too dense for LongFast, causing message delays and high channel utilization.
+
+➡️ Action: Update Your Device - Tuesday 09/12/2025 12:00 (12PM)
+
+1. Go to Settings
+
+2. Select LoRa
+
+3. Choose Presets
+
+4. Select "Medium Range - Fast"
+
+(Optional: Create a channel named MediumFast with key AQ==.)
+
+
+---
+
+
 # Meshtastic-alt-il 📡
 Community guide for configuring Meshtastic devices with our shared frequency, encryption, and network settings.
 
