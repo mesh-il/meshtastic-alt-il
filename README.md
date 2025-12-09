@@ -74,7 +74,7 @@ You can import the shared `.toml` or `.json` config from [config/](config/) dire
 | Parameter | Setting | Notes |
 |------------|----------|-------|
 | **Region** | United States | Set this in device settings |
-| **Preset** | Long and Fast | Good balance of range and latency |
+| **Preset** | Medium Range - Fast (MediumFast) | Good balance of range and latency |
 | **Frequency Slot** |  70 | Important: Use Frequency Slot 70 (919.375 MHz) for this network. |
 | **Center Frequency** |  919.375 MHz |Important: Use Frequency Slot 70 (919.375 MHz) for this network. |
 | **MQTT** | Disabled | Use only if you are a radio "island" and wish to be a mqtt "relay". |
@@ -89,11 +89,10 @@ Meshtastic devices use channels to communicate securely within a network. Our co
 | Channel            | Description                  | Encrypted?                |
 |--------------------|------------------------------|---------------------------|
 | ***OpenComm***     |Used for general chatting     |  very weak key            |
-| ***MeshAlot-IL***  |Used for discussing the msh network itself | encrypted    |
-| ***EmrgComm-IL***  |Used during emergency situations | encrypted              |
 | ***LongFast***     |The default channel with the default key| NOT encrypted   |
+| ***MediumFast***   |The default channel with the default key| NOT encrypted   |
 
-[This URL](https://meshtastic.org/e/#ChESAQAaCE9wZW5Db21tOgIIEAowEiAtb9BaS0k_TtWDrBCmUs7oRUXTw5l63D_ErbA5egua2xoKTWVzaEFsdC1JTDoACjESIJF-k550Ny0oNstvxiXCt7Zs-MZ_PmJdiATg-9TaVSSKGgtFbXJnQ29tbS1JTDoACgMSAQESGAgBGPoBIAsoBTgBQAdIAVAeWEZoAcgGAQ)
+[This URL](https://meshtastic.org/e/#ChESAQAaCE9wZW5Db21tOgIIIAoPEgEBGghMb25nRmFzdDoAChESAQEaCk1lZGl1bUZhc3Q6ABIaCAEQBBj6ASALKAU4AUAHSAFQHlhGaAHIBgE)
 will allow you to configure the channels on your device.
 
 You can also use this QR image:
