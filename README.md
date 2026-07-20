@@ -1,3 +1,24 @@
+⚠️ IMPORTANT: Mesh Preset Change Required ⚠️
+We are shifting our network mesh preset from LongFast to MediumFast (labeled "Medium Range - Fast").
+
+Why the Change? The mesh is too dense for LongFast, causing message delays and high channel utilization.
+
+➡️ Action: Update Your Device - Tuesday 09/12/2025 12:00 (12PM)
+
+1. Go to Settings
+
+2. Select LoRa
+
+3. Choose Presets
+
+4. Select "Medium Range - Fast"
+
+(Optional: Create a channel named MediumFast with key AQ==.)
+
+
+---
+
+
 # Meshtastic-alt-il 📡
 Community guide for configuring Meshtastic devices with our shared frequency, encryption, and network settings.
 
@@ -70,7 +91,7 @@ Meshtastic channels can use encryption, but shared public keys do not provide pr
 | ***OpenComm***     | Used for general chatting | No |
 | ***MediumFast***   | MediumFast channel | Public default key (not private) |
 
-[This URL](https://meshtastic.org/e/#ChESAQAaCE9wZW5Db21tOgIIIAoREgEBGgpNZWRpdW1GYXN0OgASGggBEAQY-gEgCygFOAFAB0gBUB5YRmgByAYB)
+[This URL](https://meshtastic.org/e/#ChESAQAaCE9wZW5Db21tOgIIIAoPEgEBGghMb25nRmFzdDoAChESAQEaCk1lZGl1bUZhc3Q6ABIaCAEQBBj6ASALKAU4AUAHSAFQHlhGaAHIBgE)
 will allow you to configure the channels on your device.
 
 You can also use this QR image:
