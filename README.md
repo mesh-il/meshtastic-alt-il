@@ -66,7 +66,7 @@ Join out community
 Use the [Meshtastic Flasher](https://flasher.meshtastic.org/) to install the latest firmware.
 
 ### 2. Load Our Configuration
-Use the channel URL or QR code below to configure your device. The `.toml` and `.json` files in the [config/](config/) directory are human-readable references and are not directly importable by the current Meshtastic CLI.
+Use the channel URL or QR code below to configure your device. The `.toml` and `.json` files in the [config/](https://github.com/mesh-il/meshtastic-alt-il/tree/main/config) directory are human-readable references and are not directly importable by the current Meshtastic CLI.
 
 ## ⚙️ Configuration Summary
 
