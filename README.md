@@ -46,7 +46,7 @@ You can use Meshtastic for:
 - Outdoor adventures and events  
 - IoT and telemetry applications  
 
-All communication is **encrypted**, **low-power**, and **free to use** — no SIM card or subscription required.  
+Meshtastic supports encrypted channels, but this community profile uses public channel settings and should not be treated as private. It remains **low-power** and **free to use** — no SIM card or subscription required.
 
 ---
 
@@ -66,7 +66,7 @@ Join out community
 Use the [Meshtastic Flasher](https://flasher.meshtastic.org/) to install the latest firmware.
 
 ### 2. Load Our Configuration
-You can import the shared `.toml` or `.json` config from [config/](config/) directory:
+Use the channel URL or QR code below to configure your device. The `.toml` and `.json` files in the [config/](config/) directory are human-readable references and are not directly importable by the current Meshtastic CLI.
 
 ## ⚙️ Configuration Summary
 
@@ -84,13 +84,13 @@ You can import the shared `.toml` or `.json` config from [config/](config/) dire
 
 ## 🔗📊 Channels
 
-Meshtastic devices use channels to communicate securely within a network. Our community uses a shared channel configuration:
+Meshtastic channels can use encryption, but shared public keys do not provide private communication. Our community uses this channel configuration:
 
 | Channel            | Description                  | Encrypted?                |
 |--------------------|------------------------------|---------------------------|
-| ***OpenComm***     |Used for general chatting     |  very weak key            |
-| ***LongFast***     |The default channel with the default key| NOT encrypted   |
-| ***MediumFast***   |The default channel with the default key| NOT encrypted   |
+| ***OpenComm***     | Used for general chatting | No |
+| ***LongFast***     | Compatibility channel | Public default key (not private) |
+| ***MediumFast***   | MediumFast channel | Public default key (not private) |
 
 [This URL](https://meshtastic.org/e/#ChESAQAaCE9wZW5Db21tOgIIIAoPEgEBGghMb25nRmFzdDoAChESAQEaCk1lZGl1bUZhc3Q6ABIaCAEQBBj6ASALKAU4AUAHSAFQHlhGaAHIBgE)
 will allow you to configure the channels on your device.
@@ -100,6 +100,7 @@ You can also use this QR image:
 <img src="images/qrcode_meshtastic.org.png" alt="" width="200" height="200">
 
  - Please note that this will REPLACE your channel list.
+ - The shared configuration enables full position precision on OpenComm. Reduce or disable position sharing if you do not want your precise location broadcast.
 
 **Tips for Channels:**
 - Always import our shared channel configuration to avoid conflicts.
