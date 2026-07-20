@@ -1,7 +1,7 @@
 {
   "LoRa": {
     "region": "US",
-    "preset": "LONG_FAST",
+    "preset": "MEDIUM_FAST",
     "frequency_slot": 70,
     "hop_limit": 7,
     "transmit_enabled": true,

@@ -5,7 +5,7 @@
 [LoRa]
 # Region and modem configuration
 region = "US"               # United States region setting
-preset = "LONG_FAST"        # Long range, faster data rate preset
+preset = "MEDIUM_FAST"      # Medium range, faster data rate preset
 frequency_slot = 70         # 919.375 MHz center frequency
 hop_limit = 7               # Recommended for stable multi-hop routing
 transmit_enabled= true      # Enables transmission via LORA
