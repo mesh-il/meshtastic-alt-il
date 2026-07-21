@@ -45,7 +45,7 @@ Join out community
 Use the [Meshtastic Flasher](https://flasher.meshtastic.org/) to install the latest firmware.
 
 ### 2. Load Our Configuration
-The Key for the OpenComm chanel will is pinned in the General topic in the telegram channel.
+The Key for the OpenComm chanel is pinned in the General topic in the telegram channel.
 
 ## ⚙️ Configuration Summary
 
