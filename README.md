@@ -45,7 +45,7 @@ Join out community
 Use the [Meshtastic Flasher](https://flasher.meshtastic.org/) to install the latest firmware.
 
 ### 2. Load Our Configuration
-Use the channel URL or QR code below to configure your device. The `.toml` and `.json` files in the [config/](https://github.com/mesh-il/meshtastic-alt-il/tree/main/config) directory are human-readable references and are not directly importable by the current Meshtastic CLI.
+The Key for the OpenComm chanel will is pinned in the General topic in the telegram channel.
 
 ## ⚙️ Configuration Summary
 
@@ -67,21 +67,14 @@ Meshtastic channels can use encryption, but shared public keys do not provide pr
 
 | Channel            | Description                  | Encrypted?                |
 |--------------------|------------------------------|---------------------------|
-| ***OpenComm***     | Used for general chatting | No |
+| ***OpenComm***     | Used for general chatting | Yes |
 | ***MediumFast***   | MediumFast channel | Public default key (not private) |
 
-[This URL](https://meshtastic.org/e/#ChESAQAaCE9wZW5Db21tOgIIIAoREgEBGgpNZWRpdW1GYXN0OgASGggBEAQY-gEgCygFOAFAB0gBUB5YRmgByAYB)
-will allow you to configure the channels on your device.
 
-You can also use this QR image:
 
-<img src="images/qrcode_meshtastic.org.png" alt="" width="200" height="200">
 
- - Please note that this will REPLACE your channel list.
- - The shared configuration enables full position precision on OpenComm. Reduce or disable position sharing if you do not want your precise location broadcast.
 
 **Tips for Channels:**
-- Always import our shared channel configuration to avoid conflicts.
 - Adjust the number of hops depending on your network density.
 - Do not modify frequency slots unless you are certain about local regulations.
 
