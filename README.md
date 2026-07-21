@@ -75,7 +75,6 @@ Meshtastic channels can use encryption, but shared public keys do not provide pr
 
 
 **Tips for Channels:**
-- Always import our shared channel configuration to avoid conflicts.
 - Adjust the number of hops depending on your network density.
 - Do not modify frequency slots unless you are certain about local regulations.
 
