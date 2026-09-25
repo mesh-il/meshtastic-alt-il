@@ -45,7 +45,7 @@ Join out community
 Use the [Meshtastic Flasher](https://flasher.meshtastic.org/) to install the latest firmware.
 
 ### 2. Load Our Configuration
-The Key for the OpenComm chanel is pinned in the General topic in the telegram channel.
+The Key for the OpenComm chanel will is pinned in the General topic in the telegram channel.
 
 ## ⚙️ Configuration Summary
 
@@ -65,16 +65,17 @@ The Key for the OpenComm chanel is pinned in the General topic in the telegram c
 
 Meshtastic channels can use encryption, but shared public keys do not provide private communication. Our community uses this channel configuration:
 
-| Channel            | Description                  | Encrypted?                |
-|--------------------|------------------------------|---------------------------|
-| ***OpenComm***     | Used for general chatting | Yes |
-| ***MediumFast***   | MediumFast channel | Public default key (not private) |
+| Channel             | Description                   | Encrypted?                 |
+|---------------------|-------------------------------|----------------------------|
+| ***OpenComm***      | Used for general chatting | Yes |
+| ***MediumFast***    | MediumFast channel | Public default key (not private) |
 
 
 
 
 
 **Tips for Channels:**
+- Always import our shared channel configuration to avoid conflicts.
 - Adjust the number of hops depending on your network density.
 - Do not modify frequency slots unless you are certain about local regulations.
 
