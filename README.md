@@ -70,7 +70,7 @@ Meshtastic channels can use encryption, but shared public keys do not provide pr
 | ***OpenComm***     | Used for general chatting | No |
 | ***MediumFast***   | MediumFast channel | Public default key (not private) |
 
-[This URL](https://meshtastic.org/e/#ChESAQAaCE9wZW5Db21tOgIIIAoREgEBGgpNZWRpdW1GYXN0OgASGggBEAQY-gEgCygFOAFAB0gBUB5YRmgByAYB)
+[This URL](https://meshtastic.org/e/#ChESAQAaCE9wZW5Db21tOgIIDwoREgEBGgpNZWRpdW1GYXN0OgAKKxIgPCJcPH3nb6j6ph63z9-8IDwetI90GkgcYiakDq6TaAgaB1Rlc3RpbmcSHQgBEAQY-gEgCSgFOAFAB0gBUB5YRmgByAYB0AYC)
 will allow you to configure the channels on your device.
 
 You can also use this QR image:
