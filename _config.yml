@@ -6,5 +6,5 @@ plugins:
 
 # SEO Settings
 title: Mesh IL – Meshtastic Community Network for Israel
-description: Community guide for configuring Meshtastic devices on our shared Israel network: US band slot 70 (919.375 MHz), channels, QR code, and beginner hardware picks.
+description: "Community guide for configuring Meshtastic devices on our shared Israel network: US band slot 70 (919.375 MHz), channels, QR code, and beginner hardware picks."
 url: "https://meshtastic.org.il"
