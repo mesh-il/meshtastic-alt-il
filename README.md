@@ -4,6 +4,7 @@
 
 *Project maintained by [mesh-il](https://github.com/mesh-il) · Hosted on GitHub Pages*
 ---
+
 ## 🌐 Welcome
 
 Welcome to our shared Meshtastic configuration project for Israel!
