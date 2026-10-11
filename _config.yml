@@ -1,5 +1,10 @@
-title: "Mesh IL – Meshtastic Community Network for Israel"
-description: "Community guide for configuring Meshtastic devices on our shared Israel network: US band slot 70 (919.375 MHz), channels, QR code, and beginner hardware picks."
 remote_theme: pages-themes/midnight@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO Settings
+title: Mesh IL – Meshtastic Community Network for Israel
+description: Community guide for configuring Meshtastic devices on our shared Israel network: US band slot 70 (919.375 MHz), channels, QR code, and beginner hardware picks.
+url: "https://meshtastic.org.il"
