@@ -1,10 +1,9 @@
 # Mesh IL 📡 — Meshtastic Community Network for Israel
-
+🌐 גרסה בעברית · [Hebrew version](he/)
+---
 **Community guide for configuring Meshtastic devices on our shared network in Israel** — one place for our shared frequency, channel, and encryption settings.
 
 *Project maintained by [mesh-il](https://github.com/mesh-il) · Hosted on GitHub Pages*
----
-🌐 גרסה בעברית · [Hebrew version](he/)
 ---
 ## 🌐 Welcome
 
