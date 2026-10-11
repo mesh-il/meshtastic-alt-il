@@ -47,8 +47,6 @@ This document helps you configure your Meshtastic device with:
 
 If your device is set to a different region profile (for example, the European 868 MHz profile used by other local groups), it will **not** hear this network. Make sure your device region is set to **United States** before loading our configuration.
 
-
-
 ---
 
 ## 🛠 Getting Started
@@ -82,7 +80,7 @@ Meshtastic channels can use encryption, but a shared public key does **not** pro
 
 | Channel | Description | Encryption Key |
 |---------|-------------|----------------|
-| **OpenComm** | General community chatting | `AA==` | 
+| **OpenComm** | General community chatting | `AA==` |
 | **MediumFast** | MediumFast channel | Public default key (not private) |
 | **Testing** | Test channel — keep messages short | `PCJcPH3nb6j6ph63z9+8IDwetI90GkgcYiakDq6TaAg=` |
 
