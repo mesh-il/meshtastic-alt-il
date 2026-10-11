@@ -25,7 +25,7 @@ You can use Meshtastic for:
 - Outdoor adventures and events  
 - IoT and telemetry applications  
 
-Meshtastic supports encrypted channels, but this community profile uses public channel settings and should not be treated as private. It remains **low-power** and **free to use** — no SIM card or subscription required.
+Meshtastic supports encrypted channels, but this community profile uses public channel settings and should not be treated as private. It remains **low-power** and **free to use** — no SIM card or subscription needed!
 
 ---
 
@@ -45,7 +45,7 @@ Join out community
 Use the [Meshtastic Flasher](https://flasher.meshtastic.org/) to install the latest firmware.
 
 ### 2. Load Our Configuration
-Use the channel URL or QR code below to configure your device.
+Use the channel URL or QR code below to configure your device. The `.toml` and `.json` files in the [config/](https://github.com/mesh-il/meshtastic-alt-il/tree/main/config) directory are human-readable references and are not directly importable by the current Meshtastic CLI.
 
 ## ⚙️ Configuration Summary
 
@@ -54,8 +54,8 @@ Use the channel URL or QR code below to configure your device.
 |------------|----------|-------|
 | **Region** | United States | Set this in device settings |
 | **Preset** | Medium Range - Fast (MediumFast) | Good balance of range and latency |
-| **Frequency Slot** |  70 | Important: Use Frequency Slot 70 (919.375 MHz) for this network. |
-| **Center Frequency** |  919.375 MHz |Important: Use Frequency Slot 70 (919.375 MHz) for this network. |
+| **Frequency Slot** |  70 | Important: Use Frequency Slot 70 (919.375 MHz) for this network. |
+| **Center Frequency** |  919.375 MHz |Important: Use Frequency Slot 70 (919.375 MHz) for this network. |
 | **MQTT** | Disabled | Use only if you are a radio "island" and wish to be a mqtt "relay". |
 | **MQTT** | MQTT Root Topic | msh/US/IL972 |
 | **Transmission** |  Enabled | |
@@ -66,7 +66,7 @@ Use the channel URL or QR code below to configure your device.
 Meshtastic channels can use encryption, but shared public keys do not provide private communication. Our community uses this channel configuration:
 
 | Channel            | Description                  | Encrypted?                |
-|--------------------|------------------------------|---------------------------|
+|--------------------|------------------------------|---|
 | ***OpenComm***     | Used for general chatting | No |
 | ***MediumFast***   | MediumFast channel | Public default key (not private) |
 
@@ -92,7 +92,7 @@ If you're new to Meshtastic, here are some popular and beginner-friendly devices
 
 | Device | Notes |
 |--------|-------|
-| **Seeed Wio Tracker L1** | Includes OLED display, GPS and a 5-way joystick. Based on NRF chip, much more power efficient. Very easy to flash, popular in the Meshtastic community. Great for outdoor use. Small and portable.|
+| **Seeed Wio Tracker L1** | Includes OLED display, GPS and a 5-way joystick. Based on NRF chip, much more power efficient. Very easy to flash, popular in the Meshtastic community. Great for outdoor use. |
 | **Seeed SenseCAP Card Tracker T1000-E** | VERY small, VERY portable. Has a surprisingly good antenna for its size.|
 | **Heltec WiFi LoRa 32 V3/V4** | Compact, includes OLED display, V3 has 0.96" OLED, V4 has updated board layout. No GPS, high battery comsumtion. |
 | **Generic ESP32 + LoRa modules** | Requires a bit more DIY effort but very flexible for experimenting with mesh networks. |

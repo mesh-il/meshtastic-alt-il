@@ -1,0 +1,35 @@
+{
+  "LoRa": {
+    "region": "US",
+    "preset": "MEDIUM_FAST",
+    "frequency_slot": 70,
+    "hop_limit": 7,
+    "transmit_enabled": true,
+    "OK_to_MQTT": true,
+    "Ignore_MQTT": false
+  },
+  "MQTT": {
+    "enabled": false,
+    "json_enabled": true,
+    "encryption_enabled": true,
+    "root_topic": "msh/US/IL972"
+  },
+  "Device": {
+    "name": "ALTIL-New-Node",
+    "is_router": false
+  },
+  "Position": {
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "altitude": 0,
+    "gps_mode": "AUTO"
+  },
+  "Telemetry": {
+    "enabled": true,
+    "interval": 900
+  },
+  "Power": {
+    "ls_enabled": true,
+    "ls_secs": 60
+  }
+}
